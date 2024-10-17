@@ -21,7 +21,7 @@ COPY src/ /usr/src/infinite-craft-logger/src/
 COPY assets/ /usr/src/infinite-craft-logger/assets/
 RUN touch  assets/* src/* && cargo build --release
 
-FROM debian:bookworm-slim@sha256:84d83b22ba6c367e143fcb7169717d87d7f484356cf9a904f5352418981a99a3
+FROM debian:bookworm-slim@sha256:d83056144b2dd301730d2739635c8cbdeaaae20d6887146434184f8c060f03ce
 
 WORKDIR /
 
