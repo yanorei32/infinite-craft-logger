@@ -22,7 +22,7 @@ struct Cli {
     #[clap(long, env)]
     db_path: Option<PathBuf>,
 
-    #[clap(long, env)]
+    #[clap(long, env, value_delimiter = ',')]
     tokens: Vec<String>,
 
     #[clap(long, env)]
