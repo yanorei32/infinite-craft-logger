@@ -5,6 +5,7 @@ on:
     paths:
       - 'Dockerfile'
       - 'src/**'
+      - 'rust-toolchain'
       - 'Cargo.toml'
       - 'Cargo.lock'
       - '.github/workflows/ci.yml'
